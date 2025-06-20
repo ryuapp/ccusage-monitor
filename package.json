@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "ccusage-monitor",
+  "type": "module",
+  "scripts": {
+    "start": "npx tsx src/mod.ts",
+    "dev": "deno -ER --allow-run=ccusage --watch src/mod.ts",
+    "format": "deno fmt",
+    "build": "deno bundle src/mod.ts --outdir dist",
+    "preview": "node dist/mod.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "bin": "./dist/mod.js",
+  "license": "MIT",
+  "devDependencies": {
+    "enogu": "^0.6.1"
+  }
+}

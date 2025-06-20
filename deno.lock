@@ -1,0 +1,18 @@
+{
+  "version": "5",
+  "specifiers": {
+    "npm:enogu@~0.6.1": "0.6.1"
+  },
+  "npm": {
+    "enogu@0.6.1": {
+      "integrity": "sha512-w4fPwTAEMSoxqWLXsUgnM6gd2dmaax/QWPylS/rxCxQj/9B5Xwe6t6YAnmhKnPSfMbU/PvpFPFG6QDUDskHeyg=="
+    }
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:enogu@~0.6.1"
+      ]
+    }
+  }
+}
