@@ -1,3 +1,11 @@
+> [!NOTE]
+> [ccusage](https://ccusage.ryoppippi.com/) introduced the same feature in v15, so this tool is not necessary.  
+> Try it with the following command:
+> ```sh
+> npx ccusage blocks --live
+> ```
+
+
 # Claude Code Usage Monitor - TypeScript Port
 
 A TypeScript port of
